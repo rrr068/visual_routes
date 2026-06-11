@@ -1,0 +1,45 @@
+# Bundler
+Gemfile.lock
+.bundle/
+vendor/bundle/
+
+# Ruby
+*.gem
+*.rbc
+.rbx/
+.ruby-version
+.ruby-gemset
+.rvmrc
+
+# IDE・エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+.env.*.local
+
+# テスト・ビルド
+spec/dummy/log/
+spec/dummy/tmp/
+spec/dummy/db/*.sqlite3
+spec/dummy/db/*.sqlite3-journal
+spec/dummy/public/uploads/
+spec/dummy/.env
+coverage/
+.rspec
+.rspec_status
+
+# Appraisal（複数Railsバージョンテスト用）
+gemfiles/*.lock
+
+# その他
+.git/
+.gitkeep
+*.orig
+*.rej
+.byebug_history
+.pry_history
+node_modules/
