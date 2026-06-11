@@ -1,17 +1,17 @@
+<!-- app/views/layouts/visual_routes/application.html.erb -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Visual routes</title>
+  <title>Visual Routes</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
-  <%= yield :head %>
-
-  <%= stylesheet_link_tag    "visual_routes/application", media: "all" %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag "visual_routes/application", media: "all" %>
+  <%= javascript_include_tag "visual_routes/application" %>
 </head>
+
 <body>
-
-<%= yield %>
-
+  <%= yield %>
 </body>
 </html>
