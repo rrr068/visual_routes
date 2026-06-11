@@ -1,0 +1,16 @@
+<!-- app/views/visual_routes/routes/index.html.erb -->
+
+<div class="container">
+  <h1>Rails Routes Visualizer</h1>
+  <p>Your application's routes displayed as an interactive tree.</p>
+
+  <div id="routes-tree-container"></div>
+</div>
+
+<script type="text/javascript">
+  const routesData = <%= @routes_tree %>;
+  console.log("Routes Data:", routesData);
+
+  // この後のフェーズでD3.jsの描画ロジックをここで呼び出す
+  // VisualRoutes.drawTree(routesData, '#routes-tree-container');
+</script>

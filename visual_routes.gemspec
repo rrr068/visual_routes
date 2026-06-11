@@ -5,9 +5,9 @@ Gem::Specification.new do |spec|
   spec.version     = VisualRoutes::VERSION
   spec.authors     = [ "Ryoya Yamada" ]
   spec.email       = [ "ryo0130703ya@gmail.com" ]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of VisualRoutes."
-  spec.description = "TODO: Description of VisualRoutes."
+  spec.homepage    = "https://github.com/rrr068/visual_routes"
+  spec.summary     = "Visualize Rails routes as an interactive tree in your browser."
+  spec.description = "Visual-Routes-Rails is a Rails Engine that displays your application's routes as an interactive tree structure in the browser. It makes complex routing definitions easy to understand at a glance, perfect for development, documentation, and onboarding new team members."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/rrr068/visual_routes"
+  spec.metadata["changelog_uri"] = "https://github.com/rrr068/visual_routes/issues"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
